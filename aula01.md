@@ -1,5 +1,7 @@
 ## Declarações e atribuições em variáveis, comentários em código, comandos LEIA e ESCREVA.
 
+&nbsp;
+
 ### Declarações de variáveis:
 
 * **Inteiro →** Variável do tipo inteiro. 
@@ -14,6 +16,7 @@
 * **Lógico →** Variável do tipo booleano.
 **Exemplo:** `formado : logico`
 
+&nbsp;
 
 ### Atribuições em variáveis e entrada de dados:
 
@@ -25,6 +28,7 @@
 
 * **Lógico →** Armazena valores booleanos, apenas _verdadeiro_ ou _falso_. **Exemplo:** `formado := verdadeiro` ou `formado := falso`
 
+&nbsp;
 
 ### Entrada de dados via usuário - Comando LEIA: 
 
