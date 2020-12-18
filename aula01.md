@@ -11,7 +11,7 @@
 <br>**Exemplo:** `numeroReal : real`
 
 * **Caractere →** Variável do tipo caractere. 
-<br>**Exemplo:** `palavra : caractere`
+<br>**Exemplo:** `nome : caractere`
 
 * **Lógico →** Variável do tipo booleano.
 <br>**Exemplo:** `formado : logico`
@@ -60,3 +60,4 @@
 ### Comentários no código: 
 
 * **Comentário em linha →** Comando para inserir comentários no código. <br>**Exemplo:** `// Esse é um comentário...`
+<br>_*Em outras linguagens de programação existem os comentários em bloco, o qual não existe no VISUALG._
