@@ -21,3 +21,16 @@
 
 * **Menor ou Igual →** Testa se valor **a** é menor ou igual ao valor **b**. 
 <br>**Exemplo:**  (a `<=` b)
+
+&nbsp;
+
+### Operadores lógicos:
+
+* **E →** Auxilia nas condicionais exigindo que os dois lados da expressão sejam verdadeiros. 
+<br>**Exemplo:**  (nota > 7 `e` faltas < 10)
+
+* **OU →** Auxilia nas condicionais exigindo que somente um dos lados da expressão seja verdadeiro.
+<br>**Exemplo:**  (nota > 7 `ou` faltas < 10)
+
+* **Não →** Testa se o valor é **_não_** **a**. 
+<br>**Exemplo:**  (`não` a)
