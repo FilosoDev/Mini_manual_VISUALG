@@ -5,31 +5,58 @@
 ### Declarações de variáveis:
 
 * **Inteiro →** Variável do tipo inteiro. 
-**Exemplo:**  `numeroInteiro : inteiro`
+<br>**Exemplo:**  `numeroInteiro : inteiro`
 
 * **Real →** Variável do tipo real, com casas decimais. 
-**Exemplo:** `numeroReal : real`
+<br>**Exemplo:** `numeroReal : real`
 
 * **Caractere →** Variável do tipo caractere. 
-**Exemplo:** `palavra : caractere`
+<br>**Exemplo:** `palavra : caractere`
 
 * **Lógico →** Variável do tipo booleano.
-**Exemplo:** `formado : logico`
+<br>**Exemplo:** `formado : logico`
 
 &nbsp;
 
 ### Atribuições em variáveis e entrada de dados:
 
-* **Inteiro →** Armazena valores numéricos inteiros. **Exemplo:** `numeroInteiro := 7`
+* **Inteiro →** Armazena valores numéricos inteiros. 
+<br>**Exemplo:** `numeroInteiro := 7`
 
-* **Real →** Armazena valores númericos reais, com casas decimais. **Exemplo:** `numeroReal := 10.9977`
+* **Real →** Armazena valores númericos reais, com casas decimais. 
+<br>**Exemplo:** `numeroReal := 10.9977`
 
-* **Caractere →** Armazena cadeia de caracteres, Strings em outras linguagens. **Exemplo:** `nome := "Sócrates"`
+* **Caractere →** Armazena cadeia de caracteres, Strings em outras linguagens. 
+<br>**Exemplo:** `nome := "Sócrates"`
 
-* **Lógico →** Armazena valores booleanos, apenas _verdadeiro_ ou _falso_. **Exemplo:** `formado := verdadeiro` ou `formado := falso`
+* **Lógico →** Armazena valores booleanos, apenas _verdadeiro_ ou _falso_. 
+<br>**Exemplo:** `formado := verdadeiro` ou `formado := falso`
 
 &nbsp;
 
 ### Entrada de dados via usuário - Comando LEIA: 
 
-* **LEIA** → Comando que recebe dados do usuário via teclado: `leia(variavelOpcao)`
+* **LEIA** → Comando que recebe dados do usuário via teclado.
+<br>**Exemplo:** `leia(variavelOpcao)`
+
+&nbsp;
+
+### Impressão de dados na tela - Comandos ESCREVA e ESCREVAL:
+
+* **ESCREVA →** Comando que imprime valor na tela, sem pular linha. 
+<br>**Exemplo:** `escreva(numeroInteiro)`
+
+* **ESCREVAL →** Comando que imprime valor na tela, pulando linha ao final. 
+<br>**Exemplo:** `escreval(numeroInteiro)`
+
+* **Concatenando valores →** Valor da variável + texto. 
+<br>**Exemplo:** `escreval("Olá " + variavelNome + ", seja bem-vindo(a)!")`
+
+* **Concatenando valores II →** Valor da variável numérica + texto. 
+<br>**Exemplo:** `escreval("O valor da variável é: ", numeroInteiro)`
+
+&nbsp;
+
+### Comentários no código: 
+
+* **Comentário em linha →** Comando para inserir comentários no código. <br>**Exemplo:** `// Esse é um comentário...`
