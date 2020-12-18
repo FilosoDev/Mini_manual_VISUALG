@@ -1,2 +1,1 @@
-
 ## Declarações e atribuições em variáveis, comentários em código, comandos LEIA e ESCREVA.
