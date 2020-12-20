@@ -34,3 +34,60 @@
 
 * **Não →** Testa se o valor é **_não_** **a**. 
 <br>**Exemplo:**  (`não` a)
+
+&nbsp;
+
+### Condicionais:
+
+* **Se, Se Senão, Se Senão Se  →** Estruturas Condicionais. 
+<br>**Exemplo:**  
+```
+Algoritmo "Condicionais"
+// Disciplina   : [Lógica de Programação]
+// Professor   : Arthur Antunes Ferreira
+// Descrição   : Três exemplos de estruturas condicionais
+// Data atual  : 17/12/2020
+Var
+   // Seção de Declarações das variáveis
+   notaUm : real
+   notaDois : real
+   media : real
+   faltas : inteiro
+
+Inicio
+   // Seção de Comandos, procedimento, funções, operadores, etc...
+   notaUm := 5
+   notaDois := 3
+   media := 0
+   faltas := 2
+
+   media := (notaUm + notaDois) / 2
+
+   // Média >= 7 e faltas <= 10
+   se (media >= 7) e (faltas <= 10 ) então
+      escreval("Aprovado!")
+   fimse
+
+
+   // Média >= 7 e faltas <= 10 Aprovado
+   se (media >= 7) e (faltas <= 10 ) então
+      escreval("Aprovado!")
+   senão
+      escreval("Reprovado!")
+   fimse
+
+
+   // Média >= 7 e faltas <= 10 Aprovado
+   // Média >= 5 e faltas <= 10 Em recuperação.
+   se (media >= 7) e (faltas <= 10 ) então
+      escreval("Aprovado!")
+   senão
+      se (media >= 5) e (faltas <= 10 )  entao
+         escreval("Em recuperação!")
+      senão
+         escreval("Reprovado!")
+      fimse
+   fimse
+
+Fimalgoritmo
+```
