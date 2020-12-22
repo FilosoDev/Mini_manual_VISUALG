@@ -25,3 +25,16 @@
 
 * **Caractere →** Atribuição de valor em caracteres na posição 2 do vetor.
 <br>**Exemplo:**  `vetorDeCaracteres[2] := “Sócrates”`
+
+&nbsp;
+
+### Imprimindo valores armazenados em vetores:
+
+* **Inteiro →** Imprime valor inteiro armazenado na posição 1 do vetor.
+<br>**Exemplo:**  `escreva(vetorDeInteiros[1])`
+
+* **Real →** Imprime valor real armazenado na posição 1 do vetor.
+<br>**Exemplo:**  `escreva(vetorDeReais[1]:2:5) // Note que é acrescentado :2:5 após o vetor. Esse valor é a quantidade de casas decimais de cada lado do número que desejamos imprimir.`
+
+* **Caractere →** Imprime valor em caracteres (literal, string) armazenado na posição 1 do vetor.
+<br>**Exemplo:**  `escreva(vetorDeCaracteres[1])`
