@@ -22,3 +22,6 @@
 
 * **Mod →** Resto de uma divisão entre dois valores inteiros. 
 <br>**Exemplo:**  `total := 5 mod 2` _O resultado será 1._
+
+* **Quociente →** Retorna a parte inteira de uma divisão entre dois valores inteiros. 
+<br>**Exemplo:**  `total := 100 \ 3` _O resultado será 33._
